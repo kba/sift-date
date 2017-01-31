@@ -1,0 +1,30 @@
+{
+  "name": "sift-date",
+  "version": "0.0.1",
+  "description": "Date comparison for sift queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap -Rspec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kba/sift-date.git"
+  },
+  "keywords": [
+    "sift",
+    "date"
+  ],
+  "author": "kba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kba/sift-date/issues"
+  },
+  "homepage": "https://github.com/kba/sift-date#readme",
+  "devDependencies": {
+    "tap": "^9.0.3",
+    "tap-only": "0.0.5"
+  },
+  "dependencies": {
+    "sift": "^3.2.6"
+  }
+}
